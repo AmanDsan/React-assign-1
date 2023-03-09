@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+body{
+  background-image: linear-gradient(180deg, rgb(243, 162, 162), rgb(255, 158, 151));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cstyle {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100%;
+}
+
+.com{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(231, 120, 76);
+  width: 400px;
+  height: 330px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: -2px 2px 6px rgb(255, 129, 90);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.com img{
+  margin-left: 26px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  box-shadow: 4px 5px 10px #6f13d1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.com p{
+  margin-left: 40px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+.desig{
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.clname{
+  margin-left: 40px;
+  font-size: 22px;
+  font-weight: bold;
 }
