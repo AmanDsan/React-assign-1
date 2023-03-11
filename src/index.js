@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ChangeName } from './App2';
+import { ListItems } from './App1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ListItems />
     <App />
+    <ChangeName />
+    
   </React.StrictMode>
 );
 
