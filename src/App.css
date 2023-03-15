@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid rgb(7, 47, 158);
+    border: 2px solid rgb(7, 53, 158);
     border-radius: 15px;
     background-color: rgb(59, 40, 41);
     color: white;
