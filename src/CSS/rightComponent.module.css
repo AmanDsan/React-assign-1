@@ -1,0 +1,81 @@
+.rightBox{
+    height: 20rem;
+    background: url('../images/anime.png') ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height:25rem;
+    padding: 2rem 0;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 12rem;
+    border-radius: 10px;
+    margin-left: 25rem;
+    margin-bottom: 3rem;
+    background-color: rgba(114, 197, 176, 0.205));
+    opacity: 0.8; 
+}
+.card1 div img{
+    width: 12rem;
+    height: 6rem;
+}
+.card1 h6{
+    margin: 1rem;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 16rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin-left: 3rem;
+}
+.card2 button{
+    width: 5rem;
+    height: 2rem;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(235, 112, 118);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.card3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    max-width: 7rem;
+    height: 3rem;
+    margin-left: 25rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 987px){
+.rightBox{
+    width: 100%;
+}
+.card1{
+    width: 100%;
+    margin: auto;
+}
+.card2{
+    width: 100%;
+    margin: auto;
+}
+.card3{
+    width: 100%;
+    margin: auto;
+}
+}
