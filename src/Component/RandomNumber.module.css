@@ -1,0 +1,32 @@
+.parentCont{
+    border: none;
+    min-width: 100px;
+    max-width: 500px;
+    background-color: aliceblue;
+    margin: 10% 20% 10% 30%;
+    min-height: 300px;
+    padding: 1% 2% 0% 2%;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formData{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputData{
+    margin: 2% 2% 2% 2%;
+}
+
+.button{
+    max-width: 100px;
+    margin: 0% 10% 0% 35%;
+    background-color: bisque;
+}
