@@ -1,6 +1,6 @@
 import React from "react";
 import RandomNumber from "./Component/RandomNumber";
-import Game from "./Component/RandomNumber";
+
 
 
 function App() {
