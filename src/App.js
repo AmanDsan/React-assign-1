@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import {useRecoilState,atom} from 'recoil'
 import './App.css';
 
 function App() {
+  const colorAtom = atom({
+    key: 'Color',
+    default: true
+  })
+  const [isBlue, setIsBlue] = useRecoilState(colorAtom)
+
+  const handleColor = ()=>{
+    setIsBlue(!isBlue)
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1 style={isBlue?{color:'blue'}:{color:'red'}}>By clicking the below button color can be changed.</h1>
+     <button onClick={handleColor}>Change Colour</button>
     </div>
   );
 }
